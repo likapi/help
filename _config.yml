@@ -1,0 +1,20 @@
+title: "Centre d'aide Likapi"
+email: likapi.github@yandex.ru
+description: "Likapi - Le centre d'aide, pour vous aider à trouver plus facilement une réponse."
+baseurl: "/help"
+url: "https://likapi.github.io"
+twitter_username: "likapi_sh"
+github_username:  "likapi"
+color_theme:  "#5b3c11"
+color_text:  "#fff"
+language:  "fr"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+gems: [jekyll-paginate]
+paginate: 5
+
+# Plugins
+plugins_dir:
+  - jekyll-admin
